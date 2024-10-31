@@ -1,0 +1,191 @@
+/*Universal Application */
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+/* Nav Bar Section*/
+header {
+    background-color: cyan;
+    display: flex;
+    height: 2rem;
+    justify-content: start;
+    align-items: end;
+}
+
+header li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+header a {
+    color: salmon;
+    text-decoration: none;
+}
+
+body {
+    background-color: salmon;
+}
+
+/*Title section doen with flexbox */
+.Title {
+    background-color: rgb(134, 71, 13);
+    color: orange;
+    margin-top: 8rem;
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description {
+    margin-top: 4rem;
+    color: yellow;
+}
+
+.Description p {
+    color: white;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+/*Fist batch of images done with flexbox */
+.images1 {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.images1 li{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    margin-right: .3rem;
+}
+
+.images1 img {
+    height: 18rem;
+    width: 80%;
+}
+
+/*Media query for when screen gets too small */
+@media only screen and (max-width:1600px)
+{
+    .images1 {
+        display: flex;
+        margin-top: 4rem;
+    }
+    
+    .images1 li{
+        text-decoration: none;
+        display: block;
+        align-items: center;
+        margin-right: .3rem;
+    }
+    
+    .images1 img {
+        height: 18rem;
+        width: 30rem;
+    }
+}
+
+/* Quote Breakup done with block display*/
+.quote {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    background-color: cyan;
+    color: yellow;
+    height: 8rem;
+    display: block;
+    align-content: center;
+}
+
+/*Second batch of images done with flex display */
+.images2 {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.images2 li{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    margin-right: .3rem;
+}
+
+.images2 img {
+    height: 18rem;
+    width: 30rem;
+}
+
+/* Media query for second batc of images when screen is too small*/
+@media only screen and (max-width:1600px)
+{
+    .images2 {
+        display: flex;
+        margin-top: 4rem;
+    }
+    
+    .images2 li{
+        text-decoration: none;
+        display: block;
+        align-items: center;
+        margin-right: .3rem;
+    }
+    
+    .images2 img {
+        height: 18rem;
+        width: 30rem;
+    }
+}
+
+/*Closing Section */
+.fun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    color: yellow;
+}
+
+.fun h1 {
+    margin-bottom: 2rem;
+}
+
+.fun img {
+    margin-bottom: 2rem;
+}
+
+/*Media query to resize image based on page size */
+@media only screen and (max-width: 1300px) {
+    .fun img {
+        height: 70%;
+        width: 70%;
+    }
+    
+}
+
+/* Bottom Section*/
+footer {
+    background-color: cyan;
+    display: flex;
+    height: 2rem;
+    justify-content: start;
+    align-items: end;
+}
+
+footer li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+footer a {
+    color: salmon;
+    text-decoration: none;
+}
